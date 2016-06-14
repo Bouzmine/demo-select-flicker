@@ -6,11 +6,6 @@ import {ScientificFactsPage} from '../scientific-facts-page/scientific-facts-pag
   templateUrl: 'build/pages/home-page/home-page.html'
 })
 export class HomePage {
-  public settings: any = {};
-  public advancedPage: any;
-  public attributionsPage: any;
-  public feedbackPage: any;
-  
   constructor(private _navController: NavController) {
   }
 
